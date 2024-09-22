@@ -1,7 +1,13 @@
 
 
+*.iml
 /RegistroPropiedad/.idea
 /RegistroPropiedad/out
 /pruebaInputOutput/.idea
 /pruebaInputOutput/out
-*.iml
+/GestionAcademica/.idea
+/GestionAcademica/out
+/SistemaControlTemperatura/.idea
+/SistemaControlTemperatura/out
+/TelefonoCelular/.idea
+/TelefonoCelular/out
