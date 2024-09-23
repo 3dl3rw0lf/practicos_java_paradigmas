@@ -10,4 +10,11 @@
 package frigorifico.energia;
 
 public class SensorTemperatura {
+    private String ubicacion;
+    private Double temperaturaActual;
+
+    public SensorTemperatura(String ubicacion, Double temperaturaActual) {
+        this.ubicacion = ubicacion;
+        this.temperaturaActual = temperaturaActual;
+    }
 }
