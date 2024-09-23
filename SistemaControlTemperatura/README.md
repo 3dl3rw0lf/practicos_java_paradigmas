@@ -1,5 +1,6 @@
-MODELO M35455_4
-Autor: Prof. Mauricio Fariello
+# MODELO M35455_4
+## Autor: Prof. Mauricio Fariello
+
 Dado el siguiente diagrama de clases en UML, que modela un sistema de control de temperatura para un frigorífico.
 
 ![UML_SistemaControlTemperatura](SistemaControlTemperatura_white.png)
