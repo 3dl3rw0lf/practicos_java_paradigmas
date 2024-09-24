@@ -19,6 +19,10 @@ public class Profesor extends Persona{
         this.docente = curso;
     }
 
+    public Curso getDocente() {
+        return docente;
+    }
+
     public void cursoProfesor(){
         //TODO: hacer método aparte
         MostrarPersona<Profesor> vistaProfesor = new MostrarPersona<>(this);
