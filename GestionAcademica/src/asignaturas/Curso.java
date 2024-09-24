@@ -27,6 +27,7 @@ public class Curso {
         return titulo;
     }
 
+    @Deprecated
     public void mostrarInscriptos(){
         if (delAlumno.isEmpty()){
             System.out.println("Sin inscripciones en el curso "+ getTitulo());
