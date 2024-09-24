@@ -2,7 +2,7 @@
 
 Implementar en dos "packages" el siguiente modelo de clases y verificar su funcionamiento.
 
-![GestionAcademica](E:\UTN\02.Paradigmas_de_programacion\campus\03.Modelo OO Programación OO\03.TP Relaciones y uso de packages\GestionAcademica.png) 
+![GestionAcademica](GestionAcademica.png) 
 
 Packages:
 
