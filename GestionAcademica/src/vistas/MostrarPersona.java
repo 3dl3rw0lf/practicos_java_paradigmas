@@ -27,20 +27,23 @@ public class MostrarPersona<T extends Persona> {
         String clase = "";
         String tipo = "";
         String fecha = "";
+        String curso = "";
 
         if (t.getClass().equals(Estudiante.class)) {
             clase = "ESTUDIANTE";
             tipo = "INSCRIPTO";
             fecha = Inscripcion.getFechaInscripcion();
+            curso = ((Estudiante) t).getCurso();
         }
 
         if (t.getClass().equals(Profesor.class)) {
             clase = "PROFESOR";
             tipo = "DICTA";
             fecha = " ";
+            curso = ((Profesor) t).getDocente().getTitulo();
         }
 
-        String curso = Curso.getTitulo();
+        // String curso =  Curso.getTitulo();
         String nombreCompleto = t.getNombre() + " " + t.getApellido();
 
         String borde = "*".repeat(anchoCaja);

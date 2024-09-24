@@ -9,5 +9,11 @@
  */
 package frigorifico.energia;
 
+import frigorifico.camaras.Camara;
+
 public class ControlEnergia {
+
+    public void calcularCantidadEnergia(Camara camara, Double temperaturaDeseada){
+
+    }
 }

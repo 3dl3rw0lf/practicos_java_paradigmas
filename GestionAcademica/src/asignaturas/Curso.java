@@ -5,7 +5,8 @@ import java.util.Enumeration;
 import java.util.Hashtable;
 
 public class Curso {
-    private static String titulo;
+    //private static String titulo;
+    private String titulo;
     private ArrayList<Inscripcion> delAlumno = new ArrayList<>(42);
     private Hashtable<Integer, Inscripcion> delAlumnoHT = new Hashtable<>();
 
@@ -21,7 +22,8 @@ public class Curso {
         this.delAlumnoHT.put(legajo, inscripcion);
     }
 
-    public static String getTitulo(){
+    //public static String getTitulo(){
+    public String getTitulo(){
         return titulo;
     }
 

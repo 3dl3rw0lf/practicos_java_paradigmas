@@ -15,15 +15,19 @@ public class Camara {
     protected Double cantidadEnergia;
     protected Boolean temperatura;
 
-    private Integer idCamara;
+    private final Integer idCamara;
+    private static int idContador = 1;
 
-    public Camara() {
-
+    public Camara(String nombre, Double volumen) {
+        this.idCamara = ++idContador;
+        this.nombre = nombre;
+        this.volumen = volumen;
     }
 
     public void calcularEnergia(Double temperaturaDeseada){}
 
+    public void mostrarDatosAjusteTemperatura(){}
+
     public void ajustarTemperatura(){}
 
-    public void mostrarDatosAjusteTemperatura(){}
 }

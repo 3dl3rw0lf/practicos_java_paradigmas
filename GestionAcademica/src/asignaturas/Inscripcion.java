@@ -1,12 +1,13 @@
 package asignaturas;
 
+import errores.ErrorInscripcion;
 import miembros.Estudiante;
 
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class Inscripcion {
+public class Inscripcion  {
     private Estudiante estudiante;
     private Curso paraEl;
     private static LocalDateTime fechaInscripcion;
@@ -18,7 +19,7 @@ public class Inscripcion {
     }
 
     //TODO: ???
-    private void alumno(){
+    private void alumno() throws ErrorInscripcion {
         estudiante.inscribir(paraEl);
     }
 
